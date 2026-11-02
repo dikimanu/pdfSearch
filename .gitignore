@@ -1,0 +1,32 @@
+# ---- Secrets (never commit) ----
+settings.json
+phrase_cache.json
+library.db
+library.db-wal
+library.db-shm
+*.env
+.env
+
+# ---- Virtual environment ----
+venv/
+.venv/
+env/
+
+# ---- Build output ----
+dist/
+build/
+installer_output/
+wheels/
+*.exe
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
