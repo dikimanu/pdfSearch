@@ -15,9 +15,7 @@ env/
 # ---- Build output ----
 dist/
 build/
-installer_output/
 wheels/
-*.exe
 
 # ---- Python ----
 __pycache__/
